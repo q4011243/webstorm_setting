@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="=&gt;" value="($arg$) =&gt; {&#10;    $body$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="=&gt;" value="($arg$) =&gt; {&#10;    $body$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

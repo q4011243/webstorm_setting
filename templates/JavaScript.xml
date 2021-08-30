@@ -1,5 +1,16 @@
 <templateSet group="JavaScript">
-  <template name="=&gt;" value="($arg$) =&gt; {&#10;    $body$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="df" value="($arg$) =&gt; {&#10;    $body$&#10;}" description="箭头函数" toReformat="false" toShortenFQNames="true">
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="dfi" value="($arg$) =&gt; {$body$}" description="箭头函数 inline" toReformat="false" toShortenFQNames="true">
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

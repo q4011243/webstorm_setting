@@ -27,7 +27,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="thenc" value="then(&#10;    (response) =&gt; {console.log(&quot;成功&quot;,response)},&#10;    (error) =&gt; {console.log(&quot;失败&quot;,error)}&#10;)" description="promise 的回调函数" toReformat="false" toShortenFQNames="true">
+  <template name="thenc" value="then(&#10;    (response) =&gt; {console.log(&quot;成功&quot;,response.data)},&#10;    (error) =&gt; {console.log(&quot;失败&quot;,error)}&#10;)" description="promise 的回调函数" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

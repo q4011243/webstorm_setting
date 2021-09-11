@@ -3,7 +3,7 @@
     <property name="created">2021-09-08T19:35:24</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2021-09-08T19:50:05</property>
+    <property name="modified">2021-09-11T10:04:54</property>
     <property name="originalScheme">One Dark</property>
   </metaInfo>
   <colors>
@@ -660,7 +660,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="8c949b" />
+        <option name="FOREGROUND" value="706c5c" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">

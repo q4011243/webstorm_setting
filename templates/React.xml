@@ -203,4 +203,7 @@
     <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="state" value="this.state.$END$" description="Access component's state" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>

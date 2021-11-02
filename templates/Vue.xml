@@ -1,0 +1,7 @@
+<templateSet group="Vue">
+  <template name="vf" value="v-for=&quot;(item, index) in items&quot; :key=&quot;item.id&quot;" description="v-for" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

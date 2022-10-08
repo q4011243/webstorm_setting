@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="mdx" type="JavaScript" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="ng" approved="true" type="HTML" />
       <removed_mapping ext="vue" approved="true" type="HTML" />

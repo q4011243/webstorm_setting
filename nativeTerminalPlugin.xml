@@ -1,5 +1,5 @@
 <application>
   <component name="com.sburlyaev.cmd.plugin.PluginSettings">
-    <option name="favoriteTerminal" value="cmd.exe /k &quot;%CMDER_ROOT%\vendor\init.bat&quot;" />
+    <option name="favoriteTerminal" value="E:/cmder/Cmder.exe" />
   </component>
 </application>

@@ -9,7 +9,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="vstory" value="import Pivot from './Pivot.vue';&#10;&#10;export default {&#10;    title: 'Workout/Pivot',&#10;    component: Pivot,&#10;    decorators: [() =&gt; ({ template: '&lt;div class=&quot;preview-container&quot;&gt;&lt;story/&gt;&lt;/div&gt;' })],&#10;    parameters: {&#10;        docs: {&#10;            description: {&#10;                component: '1、利用伪类使文字居中 &lt;br&gt;2、margin-right:auto 占掉所有空间',&#10;            },&#10;        },&#10;    },&#10;};&#10;&#10;const Template = (args) =&gt; ({&#10;    components: { Pivot },&#10;    setup() {&#10;        return { args };&#10;    },&#10;    template: '&lt;Pivot v-bind=&quot;args&quot; /&gt;',&#10;});&#10;&#10;export const Primary = Template.bind({});&#10;&#10;" description="storybook for vue" toReformat="false" toShortenFQNames="true">
+  <template name="vstory" value="import Pivot from './Pivot.vue';&#10;&#10;export default {&#10;    title: 'Workout/Pivot',&#10;    component: Pivot,&#10;    decorators: [() =&gt; ({ template: '&lt;div class=&quot;preview-container&quot;&gt;&lt;story/&gt;&lt;/div&gt;' })],&#10;    parameters: {&#10;        docs: {&#10;            description: {&#10;                component: '',&#10;            },&#10;        },&#10;    },&#10;};&#10;&#10;const Template = (args) =&gt; ({&#10;    components: { Pivot },&#10;    setup() {&#10;        return { args };&#10;    },&#10;    template: '&lt;Pivot v-bind=&quot;args&quot; /&gt;',&#10;});&#10;&#10;export const Primary = Template.bind({});&#10;&#10;" description="storybook for vue" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="Vue" value="true" />
